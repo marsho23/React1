@@ -5,6 +5,9 @@ import React from 'react';
 import ComponentWithProps from './components/ComponentsWithProps';
 import Trainer from './components/Trainer';
 import PropComp from './components/propsFile';
+import Counter from './components/Counter';
+import Converter from './components/Converter';
+
 //javascript function returning html
 function App() {
   const name ={
@@ -27,6 +30,8 @@ function App() {
          <h3>props tutorial</h3>
          <PropComp/> 
          <ComponentWithProps/>
+         <Counter/>
+         <Converter/>
     </>
   );
 }
