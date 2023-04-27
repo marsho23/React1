@@ -7,6 +7,10 @@ import Trainer from './components/Trainer';
 import PropComp from './components/propsFile';
 import Counter from './components/Counter';
 import Converter from './components/Converter';
+import MilesAhead from './components/MilesAhead';
+import Login from './components/Login';
+import Car from './components/car';
+
 
 //javascript function returning html
 function App() {
@@ -32,6 +36,9 @@ function App() {
          <ComponentWithProps/>
          <Counter/>
          <Converter/>
+         <MilesAhead/>
+         <Login/>
+         <Car/>
     </>
   );
 }
