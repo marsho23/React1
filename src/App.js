@@ -1,31 +1,31 @@
 // import logo from './logo.svg';
 import './App.css';
-import Cat from './components/Cat';
 import React from 'react';
-import ComponentWithProps from './components/ComponentsWithProps';
+// import Cat from './components/Cat';
+// import ComponentWithProps from './components/ComponentsWithProps';
 import Trainer from './components/Trainer';
-import PropComp from './components/propsFile';
-import Counter from './components/Counter';
-import Converter from './components/Converter';
-import MilesAhead from './components/MilesAhead';
-import Login from './components/Login';
-import Car from './components/car';
-import ProductTable from './components/ProductTable';
+// import PropComp from './components/propsFile';
+// import Counter from './components/Counter';
+// import Converter from './components/Converter';
+// import MilesAhead from './components/MilesAhead';
+// import Login from './components/Login';
+// import Car from './components/car';
+// import ProductTable from './components/ProductTable';
 import Calculator from './components/calculator';
-
+// import trainers from "./components/trainers.json"
 
 //javascript function returning html
 function App() {
-  const name ={
-    forename:"maryum",
-    surname: "shouket"
-  }
+  // const name ={
+  //   forename:"maryum",
+  //   surname: "shouket"
+  // }
   
   //you can only return one parent element so to return multiple things
   //use somethign like div and put it all in there
   return (
     <>
-         <Cat/>
+         {/* <Cat/>
          <h3>JSX exercise</h3>
          <p>{name.forename}</p>
          <p>{name.surname}</p>
@@ -42,8 +42,13 @@ function App() {
          <Login/>
          <Car/>
          <br/>
-         <ProductTable/>
+         <ProductTable/> */}
          <Calculator/>
+         <br/>
+         {/* {
+         trainers.map(({id,name,age})=><Trainer key = {id} name={name} age={age}/>
+         )
+        } */}
     </>
   );
 }
