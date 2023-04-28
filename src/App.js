@@ -11,6 +11,7 @@ import MilesAhead from './components/MilesAhead';
 import Login from './components/Login';
 import Car from './components/car';
 import ProductTable from './components/ProductTable';
+import Calculator from './components/calculator';
 
 
 //javascript function returning html
@@ -42,6 +43,7 @@ function App() {
          <Car/>
          <br/>
          <ProductTable/>
+         <Calculator/>
     </>
   );
 }
