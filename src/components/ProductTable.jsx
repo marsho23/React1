@@ -23,6 +23,24 @@ const ProductTable = ()=> {
     return (
         <>
             <input name="searchString" type="text" value={searchString} onChange={onSearchStringChange}/>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {filteredProduct.map((product)=>
+                    <tr key ={product.id}>
+                        <td>{product.id}</td>
+                        <td>{product.name}</td>
+                        <td>{product.price}</td>
+                    </tr>
+                    )}
+                </tbody>
+            </table>
         </>
     )
 }
